@@ -19,7 +19,8 @@ header{
 	width: 80%;
 	height: 30px;
 	margin: auto;
-	border: 1px solid #000;
+	border: 0px solid #000;
+	margin-top: 30px;
 }
 #logo{
 	width: 30%;
@@ -27,7 +28,36 @@ header{
 	float: left;
 	color: #fff;
 	font-size: 30px;
+	margin-top: 55px;
 }
 #menu{
-	
+	width: 60%;
+	height: 30px;
+	float: right;
+	border: 0px solid red;
+	margin-top: 55px;
+}
+#menu ul{}
+
+#menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+#menu ul li .enlace{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 20px;
+}
+#menu ul li .enlace:hover{
+	background: #585858;
+	color: #fff;
+	border-radius: 5px 5px 0px 0px;
+}
+#menu ul li .enlace-menu{
+	background: #585858;
+	color: #fff;
+	border-radius: 5px 5px 0px 0px;
+	padding: 10px;
 }
